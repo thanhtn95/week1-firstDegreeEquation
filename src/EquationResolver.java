@@ -14,7 +14,7 @@ public class EquationResolver {
 
         if (a != 0) {
             double result = (c - b) / a;
-            System.out.println("The solution is: %f!" + result);
+            System.out.println("The solution is: " + result);
         } else {
             if (b == 0) {
                 System.out.println("The solution is all x!");
