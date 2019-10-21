@@ -12,13 +12,13 @@ public class EquationResolver {
         System.out.println("c: ");
         double c = sc.nextDouble();
 
-        if(a!= 0){
-            double result = (c-b)/a;
-            System.out.println("The solution is: %f!"+result);
-        }else{
-            if(b == 0){
+        if (a != 0) {
+            double result = (c - b) / a;
+            System.out.println("The solution is: %f!" + result);
+        } else {
+            if (b == 0) {
                 System.out.println("The solution is all x!");
-            }else{
+            } else {
                 System.out.println("No solution");
             }
         }
